@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Some changes to app3 via codesandbox
+          A change
         </a>
       </header>
     </div>
