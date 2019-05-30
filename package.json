@@ -1,31 +1,19 @@
 {
-  "name": "app1",
+  "name": "test-app",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
+  "private": "true",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "ui-build --bundle --watch -p 3000",
+    "build": "ui-build --bundle",
+    "lint": "ui-test --lint",
+    "lint:fix": "ui-test --lint --fix",
+    "clean": "ui-build --clean"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@instructure/ui-babel-preset": "^6.3.0",
+    "@instructure/ui-eslint-config": "^6.3.0",
+    "@instructure/ui-scripts": "^6.3.0",
+    "@instructure/ui-webpack-config": "^6.3.0",
+    "html-webpack-plugin": "^3.2.0"
   }
 }
