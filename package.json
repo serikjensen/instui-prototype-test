@@ -9,6 +9,10 @@
     "lint:fix": "ui-test --lint --fix",
     "clean": "ui-build --clean"
   },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
     "@instructure/ui-babel-preset": "^6.3.0",
     "@instructure/ui-eslint-config": "^6.3.0",

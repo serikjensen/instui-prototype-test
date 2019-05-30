@@ -1,5 +1,5 @@
-/* eslint-disable notice/notice */
-/* eslint-disable no-console */
-console.log('hello foo!')
-/* eslint-enable no-console */
-/* eslint-enable notice/notice */
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+
+ReactDOM.render(<App />, document.getElementById('root'))
