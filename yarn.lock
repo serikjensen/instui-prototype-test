@@ -1119,6 +1119,14 @@
   resolved "https://registry.yarnpkg.com/@instructure/canvas-supported-browsers/-/canvas-supported-browsers-1.0.0.tgz#dd82d1ab612892edea11693f6e5057b565eb467e"
   integrity sha512-Lbmkh1nR27yCM/LesEcW8gpTM0q5OEkFNbane6p8VrUCkwv7cTNWtsjaSPQ0O/ubk12ABlzsIoAmVkTgUeImGw==
 
+"@instructure/canvas-theme@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@instructure/canvas-theme/-/canvas-theme-6.3.0.tgz#1cf9c388e297555f0408b0fb00f08fe7ec7a1ae6"
+  integrity sha512-8XqLMxdkLPJ+SFnCo+590PmhArUDPhKW4npIdleB5XDuUaZPhtY1lJHS2qGc7L225QhFm2SdzsIseIgkEjPcbA==
+  dependencies:
+    "@babel/runtime" "^7"
+    "@instructure/ui-themeable" "^6.3.0"
+
 "@instructure/command-utils@^6.3.0":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@instructure/command-utils/-/command-utils-6.3.0.tgz#62c1866d76fd5d115cf6fb6162c8583130c0bbb2"
@@ -11874,7 +11882,7 @@ react-docgen@^4:
     node-dir "^0.1.10"
     recast "^0.17.3"
 
-react-dom@^16.8.1:
+react-dom@^16.8.1, react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -12007,7 +12015,7 @@ react-textarea-autosize@^7.0.4:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react@^16.8.1:
+react@^16.8.1, react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==

@@ -10,6 +10,8 @@
     "clean": "ui-build --clean"
   },
   "dependencies": {
+    "@instructure/canvas-theme": "^6.3.0",
+    "@instructure/ui-layout": "^6.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
