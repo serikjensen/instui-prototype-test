@@ -1,2 +1,2 @@
-**/node_modules/**
-**/__build__/**
+/node_modules/**
+/__build__/**
