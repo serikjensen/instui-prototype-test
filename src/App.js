@@ -10,7 +10,7 @@ const App = () => (
     margin="large"
     padding="small"
   >
-    Start building with instructure-ui!
+    Edit this file to start building with Instructure UI
   </View>
 )
 
