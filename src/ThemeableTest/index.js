@@ -22,21 +22,17 @@
  * SOFTWARE.
  */
 
-import React from 'react'
-import '@instructure/canvas-theme'
-import { View } from '@instructure/ui-layout'
+import React, { Component } from 'react'
+import { themeable } from '@instructure/ui-themeable'
 
-import ThemeableTest from './ThemeableTest'
+import styles from './styles.css'
+import theme from './theme.js'
 
-const App = () => (
-  <View
-    as="main"
-    padding="large medium none"
-    minHeight="100%"
-    textAlign="center"
-  >
-    <ThemeableTest />
-  </View>
-)
+@themeable(theme, styles)
+class ThemeableTest extends Component {
+  render () {
+    return <div className={styles.root}>hello world</div>
+  }
+}
 
-export default App
+export default ThemeableTest

@@ -22,21 +22,10 @@
  * SOFTWARE.
  */
 
-import React from 'react'
-import '@instructure/canvas-theme'
-import { View } from '@instructure/ui-layout'
-
-import ThemeableTest from './ThemeableTest'
-
-const App = () => (
-  <View
-    as="main"
-    padding="large medium none"
-    minHeight="100%"
-    textAlign="center"
-  >
-    <ThemeableTest />
-  </View>
-)
-
-export default App
+ export default function generator ({ colors, spacing }) {
+   return {
+     background: colors.backgroundBrand,
+     color: colors.textLightest,
+     padding: spacing.large
+   }
+ }

@@ -1,0 +1,5 @@
+.root {
+  background: var(--background);
+  padding: var(--padding);
+  color: var(--color);
+}

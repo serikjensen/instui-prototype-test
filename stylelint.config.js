@@ -22,21 +22,4 @@
  * SOFTWARE.
  */
 
-import React from 'react'
-import '@instructure/canvas-theme'
-import { View } from '@instructure/ui-layout'
-
-import ThemeableTest from './ThemeableTest'
-
-const App = () => (
-  <View
-    as="main"
-    padding="large medium none"
-    minHeight="100%"
-    textAlign="center"
-  >
-    <ThemeableTest />
-  </View>
-)
-
-export default App
+module.exports = require('@instructure/ui-stylelint-config')
