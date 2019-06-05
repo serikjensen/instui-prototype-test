@@ -15,13 +15,16 @@
     "@instructure/ui-icons": "^6.3.0",
     "@instructure/ui-layout": "^6.3.0",
     "@instructure/ui-svg-images": "^6.3.0",
+    "@instructure/ui-themeable": "^6.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@instructure/ui-babel-preset": "^6.3.0",
     "@instructure/ui-eslint-config": "^6.3.0",
+    "@instructure/ui-postcss-config": "^6.3.0",
     "@instructure/ui-scripts": "^6.3.0",
+    "@instructure/ui-stylelint-config": "^6.3.0",
     "@instructure/ui-webpack-config": "^6.3.0",
     "html-webpack-plugin": "^3.2.0"
   }

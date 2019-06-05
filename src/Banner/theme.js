@@ -22,6 +22,6 @@
  * SOFTWARE.
  */
 
-module.exports = {
-  presets: [require('@instructure/ui-babel-preset')]
-}
+export default ({ spacing }) => ({
+  marginTop: spacing.medium
+})

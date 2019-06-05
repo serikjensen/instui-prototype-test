@@ -22,6 +22,4 @@
  * SOFTWARE.
  */
 
-module.exports = {
-  presets: [require('@instructure/ui-babel-preset')]
-}
+module.exports = require('@instructure/ui-postcss-config')()
