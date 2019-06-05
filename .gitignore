@@ -1,2 +1,14 @@
-/node_modules/**
-/__build__/**
+node_modules/
+__build__/
+npm-debug.log
+yarn-error.log
+.yarnclean
+.babel-cache
+.vscode
+.idea
+.DS_Store
+.viminfo
+.npmrc
+.env
+.env.test
+.tmp/
