@@ -22,10 +22,6 @@
  * SOFTWARE.
  */
 
- export default function generator ({ colors, spacing }) {
-   return {
-     background: colors.backgroundBrand,
-     color: colors.textLightest,
-     padding: spacing.large
-   }
- }
+export default ({ spacing }) => ({
+  marginTop: spacing.medium
+})
