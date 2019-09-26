@@ -25,6 +25,8 @@
 import React from 'react'
 import Banner from './Banner'
 
+import '@instructure/canvas-theme'
+
 const App = () => <Banner />
 
 export default App
